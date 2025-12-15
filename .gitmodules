@@ -1,0 +1,3 @@
+[submodule "eventsync-hub"]
+	path = eventsync-hub
+	url = https://github.com/GabrFelps/eventsync-hub.git
