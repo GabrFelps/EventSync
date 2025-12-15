@@ -50,6 +50,7 @@ model Event {
   end_date            DateTime
   price               Float    @default(0)
   is_free             Boolean  @default(true)
+  pix_key             String?
   requires_approval   Boolean  @default(false)
   registration_open   DateTime?
   registration_close  DateTime?
